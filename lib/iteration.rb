@@ -51,7 +51,7 @@ def total_even_pairs(array_3)
       answer = []
 
 
-      while element_index  < array_3[row_index].count do
+      while element_index * 2 < array_3[row_index].count do
 
         element_index += 1
         if array_3[row_index][0] % 2 == 0 &&
@@ -62,7 +62,7 @@ end
       end
         row_index += 1
    end #=> nil
-  return answer
+
   end
 
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
