@@ -62,9 +62,10 @@ end
       end
 
         row_index += 1
-        x<<answer
+
    end #=> nil
-x
+answer
+
   end
 
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
