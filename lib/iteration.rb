@@ -53,12 +53,13 @@ def total_even_pairs(array_3)
 
       while element_index  < array_3[row_index].count do
 
-        element_index += 1
+
         if array_3[row_index][0] % 2 == 0 &&
            array_3[row_index][1] % 2 == 0
           puts answer = array_3[row_index][0] + array_3[row_index][1]
 
-end
+        end
+        element_index += 1
       end
 
         row_index += 1
