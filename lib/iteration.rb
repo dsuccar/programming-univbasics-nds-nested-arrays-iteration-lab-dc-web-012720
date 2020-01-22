@@ -64,7 +64,8 @@ end
         row_index += 1
         x<<answer
    end #=> nil
-x
+sum = 0
+x.each { |a| sum+=a }
   end
 
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
