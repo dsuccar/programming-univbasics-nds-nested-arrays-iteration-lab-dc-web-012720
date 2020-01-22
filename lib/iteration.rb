@@ -65,7 +65,7 @@ end
         x<<answer
    end #=> nil
 sum = 0
-x.each { |a| sum+=a }
+x.each { |b| sum += x }
   end
 
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
