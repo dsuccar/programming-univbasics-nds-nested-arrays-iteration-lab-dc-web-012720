@@ -44,29 +44,25 @@ end
 def total_even_pairs(array_3)
 
     row_index = 0
-    x = []
+    answer = 0
+
 
     while row_index  < array_3.count do
       element_index = 0
-
-
-
-      while element_index *2 < array_3[row_index].count do
-
-
+      while element_index * 2 < array_3[row_index].count do
         if array_3[row_index][0] % 2 == 0 &&
            array_3[row_index][1] % 2 == 0
-          puts answer = array_3[row_index][0] + array_3[row_index][1]
 
+           answer += array_3[row_index][0] + array_3[row_index][1]
         end
+
         element_index += 1
       end
 
         row_index += 1
+   end
 
-   end #=> nil
 answer
-
   end
 
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
