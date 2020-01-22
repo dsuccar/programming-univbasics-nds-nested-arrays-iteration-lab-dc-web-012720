@@ -60,9 +60,10 @@ def total_even_pairs(array_3)
   answer << array_3[row_index][1]
 end
       end
+      x<<answer
         row_index += 1
    end #=> nil
-answer
+x
   end
 
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
