@@ -57,11 +57,12 @@ def total_even_pairs(array_3)
         if array_3[row_index][0] % 2 == 0 &&
            array_3[row_index][1] % 2 == 0
           answer << array_3[row_index][0] + array_3[row_index][1]
-          
+
 end
       end
-      x<<answer
+
         row_index += 1
+        x<<answer
    end #=> nil
 x
   end
